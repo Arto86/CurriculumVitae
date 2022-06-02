@@ -1,0 +1,59 @@
+body{
+	font-family: Arial;
+	font-size: 0.73em;
+}
+#container{
+	display: flex;
+	justify-content: space-around;
+	background-color: #1BB0AC;
+	border: 4px solid black;
+}
+.name em{
+	font-size: 1.3em;}
+.contact{
+	font-size: 0.9em;
+}
+.contact strong{
+	font-size: 1.05em;
+}
+.contact ul{
+	font-size: 0.75em;
+	list-style-type: square;
+}
+.core{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-content: flex-start;
+}
+section{
+	display: flex;
+	flex-flow: column wrap;
+	margin: auto;
+	justify-content: space-around;
+	align-content: space-between;
+	width: 45%;
+}
+.title{
+	font-size: 2.0em;
+	color: #2a8e8b;
+	text-decoration: overline;
+}
+.subtitle{
+	font-size: 1.4em;
+	font-weight: bold;
+}
+b{
+	font-weight: bold;
+	color: #6db6b4;
+}
+.intro{
+	font-size: 1.7em;
+}
+.project{
+	margin-top: 0;
+	font-size: 1.1em;
+}
+.ps{
+	font-size: 0.85em;
+}
